@@ -72,6 +72,12 @@ color: white;
     transition: all 0.5s;
     }
 
+.textoavisos:hover > .boton { 
+    background-color: #fed201;
+    transition: all 0.5s; 
+}
+
+
 .boton {
     background-color: #1a75bc;
     color: white;
@@ -88,6 +94,15 @@ color: white;
     left: 300px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     padding: 20px
+}
+
+.fa-window-close {
+    color: #1a75bc;
+    
+}
+
+.modalnombre {
+    color: #1a75bc;
 }
 
 .fotosmodal {

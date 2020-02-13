@@ -71,10 +71,11 @@ for (let i = 0; i < listaDeBotones.length; i++) {
         `
         <div id="mymodal" class="modal nomostrar">
             <div class="modalcontent">
-                <h2>${gatos[i].name}</h2>
+            <div id="cerrarModal"><i class="fa fa-window-close"></i></div>    
+            <h2 class="modalnombre">${gatos[i].name}</h2>
                 <div><img class="fotosmodal" src="${gatos[i].img}"></div>
                 <p>${gatos[i].longDesc}</p>
-                <div><button id="cerrarModal">Cerrar Modal</button></div>
+                
             </div>
         </div>
 `
